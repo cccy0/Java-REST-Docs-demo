@@ -54,6 +54,25 @@
             <version>2.6.1</version>
         </dependency>
     </dependencies>
+<repositories>
+    <repository>
+        <id>aliyun-repos</id>
+        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+
+<pluginRepositories>
+    <pluginRepository>
+        <id>aliyun-plugin</id>
+        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </pluginRepository>
+</pluginRepositories>
 
     <build>
         <plugins>
