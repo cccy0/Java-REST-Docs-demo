@@ -11,7 +11,7 @@ stages:
       buildContext: .
       tag: spring-boot-demo01
       pushRemote: true
-      registry: registry.cn-shanghai.aliyuncs.com/cccy/123
+      registry: registry.cn-shanghai.aliyuncs.com
 - name: deploy
   steps:
   - applyYamlConfig:
